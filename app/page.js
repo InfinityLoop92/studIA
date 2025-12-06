@@ -43,7 +43,7 @@ export default function Page() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>Chat con OpenAI + upload immagini</h1>
+      <img src="/logo.png" alt="Logo" style={{ width: "200px", height: "auto", marginBottom: "20px" }} />
 
       <form onSubmit={handleSubmit}>
         <textarea
