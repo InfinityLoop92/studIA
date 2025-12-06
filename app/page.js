@@ -43,7 +43,7 @@ export default function Page() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <img src="/logo.png" alt="Logo" style={{ width: "200px", height: "auto", marginBottom: "20px" }} />
+      <img src="/icon-512.png" alt="Logo" style={{ width: "200px", height: "auto", marginBottom: "20px" }} />
 
       <form onSubmit={handleSubmit}>
         <textarea
