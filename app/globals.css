@@ -1,0 +1,48 @@
+/* Reset base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font base */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f3ff;
+  color: #333;
+}
+
+/* Scroll chat */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(124, 58, 237, 0.5);
+  border-radius: 4px;
+}
+
+/* Pulsanti generici */
+button {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+
+/* Input / textarea */
+input, textarea {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 0.75rem;
+  outline: none;
+  width: 100%;
+}
+
+input:focus, textarea:focus {
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.2);
+}
